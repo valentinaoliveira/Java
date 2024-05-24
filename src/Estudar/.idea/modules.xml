@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Estudar.iml" filepath="$PROJECT_DIR$/.idea/Estudar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JOptionPane/JOptionPane.iml" filepath="$PROJECT_DIR$/JOptionPane/JOptionPane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Media/Media.iml" filepath="$PROJECT_DIR$/Media/Media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simples/Simples.iml" filepath="$PROJECT_DIR$/Simples/Simples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bissexto/bissexto.iml" filepath="$PROJECT_DIR$/bissexto/bissexto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classificacao/classificacao.iml" filepath="$PROJECT_DIR$/classificacao/classificacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/for/for.iml" filepath="$PROJECT_DIR$/for/for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/for tabuada/for tabuada.iml" filepath="$PROJECT_DIR$/for tabuada/for tabuada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/if else/if else.iml" filepath="$PROJECT_DIR$/if else/if else.iml" />
+    </modules>
+  </component>
+</project>

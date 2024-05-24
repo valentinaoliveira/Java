@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Switch/Exercicio02/Exercicio02.iml" filepath="$PROJECT_DIR$/Switch/Exercicio02/Exercicio02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Exercicio03/Exercicio03.iml" filepath="$PROJECT_DIR$/Switch/Exercicio03/Exercicio03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Exercicio04/Exercicio04.iml" filepath="$PROJECT_DIR$/Switch/Exercicio04/Exercicio04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Exercicio05/Exercicio05.iml" filepath="$PROJECT_DIR$/Switch/Exercicio05/Exercicio05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lista03.iml" filepath="$PROJECT_DIR$/.idea/Lista03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Switch/Switch.iml" filepath="$PROJECT_DIR$/Switch/Switch.iml" />
+    </modules>
+  </component>
+</project>

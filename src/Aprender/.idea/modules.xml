@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Aprender.iml" filepath="$PROJECT_DIR$/.idea/Aprender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Carro/Carro.iml" filepath="$PROJECT_DIR$/Carro/Carro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClasseJava/ClasseJava.iml" filepath="$PROJECT_DIR$/ClasseJava/ClasseJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Determinante/Determinante.iml" filepath="$PROJECT_DIR$/Determinante/Determinante.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrizes/Diagonal secundaria/Diagonal secundaria.iml" filepath="$PROJECT_DIR$/Matrizes/Diagonal secundaria/Diagonal secundaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Funcoes/Funcoes.iml" filepath="$PROJECT_DIR$/Funcoes/Funcoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MatrizdeValor/MatrizdeValor.iml" filepath="$PROJECT_DIR$/MatrizdeValor/MatrizdeValor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrizes/Matrizes.iml" filepath="$PROJECT_DIR$/Matrizes/Matrizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrizes/matrizmenor/matrizmenor.iml" filepath="$PROJECT_DIR$/Matrizes/matrizmenor/matrizmenor.iml" />
+    </modules>
+  </component>
+</project>
