@@ -1,47 +1,45 @@
 import java.awt.*;
 import java.util.Random;
 
-public abstract class Shape {
-
-    // Atributos
+public abstract class Shape { // abstrato nao pode ser instaciado
     private Color color;
     private int x;
     private int y;
     private int speedX;
     private int speedY;
     Random r = new Random();
-
-    // Construtores
-    public Shape(){
-        this.color = this.colorGenerate();
-        this.x = r.nextInt(500);
-        this.y = r.nextInt(500);
+    // constructor
+    public Shape() {
+        this.color=this.colorGenerator();
+        this.x=r.nextInt(500);
+        this.y=r.nextInt(500);
         this.speedX = r.nextInt(10)+1;
         this.speedY = r.nextInt(10)+1;
     }
 
-    public Shape(Color color, int x, int y, int speedX, int speedY){
+    public Shape(Color color, int x, int y, int speedX, int speedY) {
         this.color=color;
         this.x=x;
         this.y=y;
-        this.speedX=x;
-        this.speedY=y;
+        this.speedX=speedX;
+        this.speedY=speedY;
     }
 
-    // Métodos
-    public void move(){
+    // methods
+    public void move(int screenWidth, int screenHeight){
         this.x+=speedX;
         this.y+=speedY;
     }
 
-    private Color colorGenerate(){
-        return new Color(r.nextInt(256),r.nextInt(256),r.nextInt(256));
+    private Color colorGenerator(){
+
+        return new Color(r.nextInt(256), r.nextInt(256), r.nextInt(256));
     }
 
-    public abstract void draw(Graphics g);
-    //public abstract void  draw(Graphics g);
+    public abstract void draw(Graphics g); // todos que herdam de classes abstratas tem que usar os metodos abstratos
 
-    // Getters & Setters
+
+    //getter and setters
 
     public Color getColor() {
         return color;
@@ -83,17 +81,18 @@ public abstract class Shape {
         this.speedY = speedY;
     }
 
-    // toString
 
+    // toString
 
     @Override
     public String toString() {
         return "Shape{" +
-                "speedY=" + speedY +
-                ", speedX=" + speedX +
-                ", y=" + y +
+                "color=" + color +
                 ", x=" + x +
-                ", color=" + color +
+                ", y=" + y +
+                ", speedX=" + speedX +
+                ", speedY=" + speedY +
                 '}';
+
     }
 }

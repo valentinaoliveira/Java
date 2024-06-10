@@ -148,12 +148,18 @@ public class Screensaver extends javax.swing.JFrame implements Runnable{
 
         // Instancie suas formas geométricas aqui
 
-        Rectangle r1 = new Rectangle();
-        Rectangle r2 = new Rectangle(200, 200);
-        Rectangle r3 = new Rectangle(Color.BLACK, 200,200, -2,-5, 50,100);
+        Rectangle [] r = new Rectangle[10];
+        Ellipse [] e = new Ellipse[10];
+        Square [] s = new Square[10];
+        Circle [] c = new Circle[10];
 
+        for (int i=0; i<r.length;i++){
+            r[i]= new Rectangle();
+            e[i]= new Ellipse();
+            s[i]= new Square();
+            c[i]= new Circle();
 
-
+        }
 
 
         // Como num desenho animado, as animações são criadas a partir da sobreposição de frames
@@ -164,14 +170,19 @@ public class Screensaver extends javax.swing.JFrame implements Runnable{
             g.clearRect(0, 0, getWidth(), getHeight());
 
             // Implemente sua animação aqui.
-            r1.draw(g);
-            r1.move(whidth, height);
+            for (int i= 0; i< r.length; i++){
+                r[i].draw(g);
+                r[i].move(whidth,height);
 
-            r2.draw(g);
-            r2.move(whidth, height);
+                e[i].draw(g);
+                e[i].move(whidth,height);
 
-            r3.draw(g);
-            r3.move(whidth,height);
+                s[i].draw(g);
+                s[i].move(whidth,height);
+
+                c[i].draw(g);
+                c[i].move(whidth,height);
+            }
 
             // Exibe a tela
             getBufferStrategy().show();
